@@ -30,6 +30,10 @@ Student 1 Exam performance :
 5. posterior mean = 0.788
 6. Maximum likelihood  Estimate = 33/40 = 0.825
 7. 95 % Credible interval = (0.668, 0.887)
+8. Plot:
+
+   <img width="567" height="492" alt="theta1" src="https://github.com/user-attachments/assets/9241568d-3409-426f-98c2-08c292fcd105" />
+
 
 Student 2 Exam performance :
 1. Posterior Beta (8+24, 4+40-24), Beta(32, 20)
@@ -37,7 +41,11 @@ Student 2 Exam performance :
 3. Maximum Likelihood Estimate = 24/40 = 0.6
 4. Posterior Probabilities: theta2 > 0.25: 1; theta2 > 0.5:0.954 ; theta2 > 0.8: 0.0012 ;
 5. 95 % Credible interval (0.4808, 0.7415)
+6. Plot:
+   
+   <img width="582" height="502" alt="theta2" src="https://github.com/user-attachments/assets/537f40ac-5ef6-46a6-832e-21871316b68b" />
 
+   
 Performance comparison:
 After 1000 samples, success rate of student 1 (theta1) > success rate of student 2 (theta2) : mean= P(theta1 > theta2) = 0.979
 
